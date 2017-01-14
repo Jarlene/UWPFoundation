@@ -1,0 +1,94 @@
+﻿  pch.cpp
+  alpha.cpp
+  buffer.cpp
+  frame.cpp
+  idec.cpp
+  io.cpp
+  quant.cpp
+  tree.cpp
+  vp8.cpp
+  vp8l.cpp
+  webp.cpp
+  demux.cpp
+  alpha_processing.cpp
+  alpha_processing_sse2.cpp
+  cpu.cpp
+  dec.cpp
+f:\software\windows\uap\yueba\webplib\dsp\dec.cpp(249): warning C4838: 从“int”转换到“const uint8_t”需要收缩转换
+  dec_clip_tables.cpp
+  dec_mips32.cpp
+  dec_neon.cpp
+  dec_sse2.cpp
+f:\software\windows\uap\yueba\webplib\dsp\dec_clip_tables.cpp(237): warning C4838: 从“int”转换到“const int8_t”需要收缩转换
+f:\software\windows\uap\yueba\webplib\dsp\dec_clip_tables.cpp(237): warning C4309: “初始化”: 截断常量值
+f:\software\windows\uap\yueba\webplib\dsp\dec_sse2.cpp(379): warning C4309: “参数”: 截断常量值
+f:\software\windows\uap\yueba\webplib\dsp\dec_sse2.cpp(393): warning C4309: “参数”: 截断常量值
+f:\software\windows\uap\yueba\webplib\dsp\dec_sse2.cpp(413): warning C4309: “参数”: 截断常量值
+f:\software\windows\uap\yueba\webplib\dsp\dec_sse2.cpp(431): warning C4309: “参数”: 截断常量值
+f:\software\windows\uap\yueba\webplib\dsp\dec_sse2.cpp(478): warning C4309: “参数”: 截断常量值
+  enc.cpp
+  enc_avx2.cpp
+  enc_mips32.cpp
+f:\software\windows\uap\yueba\webplib\dsp\dec_clip_tables.cpp(259): warning C4838: 从“int”转换到“const int8_t”需要收缩转换
+f:\software\windows\uap\yueba\webplib\dsp\dec_clip_tables.cpp(259): warning C4309: “初始化”: 截断常量值
+  enc_neon.cpp
+f:\software\windows\uap\yueba\webplib\dsp\enc.cpp(325): warning C4838: 从“int”转换到“const uint8_t”需要收缩转换
+  enc_sse2.cpp
+  lossless.cpp
+  lossless_mips32.cpp
+  lossless_neon.cpp
+  lossless_sse2.cpp
+  upsampling.cpp
+  upsampling_neon.cpp
+  upsampling_sse2.cpp
+f:\software\windows\uap\yueba\webplib\dsp\lossless_sse2.cpp(319): warning C4309: “参数”: 截断常量值
+f:\software\windows\uap\yueba\webplib\dsp\lossless_sse2.cpp(352): warning C4309: “参数”: 截断常量值
+f:\software\windows\uap\yueba\webplib\dsp\lossless_sse2.cpp(353): warning C4309: “参数”: 截断常量值
+  yuv.cpp
+  yuv_mips32.cpp
+  yuv_sse2.cpp
+f:\software\windows\uap\yueba\webplib\dsp\yuv_tables_sse2.h(274): warning C4838: 从“unsigned int”转换到“int32_t”需要收缩转换 (编译源文件 dsp\yuv_sse2.cpp)
+f:\software\windows\uap\yueba\webplib\dsp\yuv_tables_sse2.h(405): warning C4838: 从“unsigned int”转换到“int32_t”需要收缩转换 (编译源文件 dsp\yuv_sse2.cpp)
+f:\software\windows\uap\yueba\webplib\dsp\yuv_tables_sse2.h(536): warning C4838: 从“unsigned int”转换到“int32_t”需要收缩转换 (编译源文件 dsp\yuv_sse2.cpp)
+  alpha.cpp
+  analysis.cpp
+  backward_references.cpp
+  config.cpp
+  cost.cpp
+  filter.cpp
+  frame.cpp
+  histogram.cpp
+  iterator.cpp
+  picture.cpp
+  picture_csp.cpp
+  picture_psnr.cpp
+  picture_rescale.cpp
+  picture_tools.cpp
+  quant.cpp
+  syntax.cpp
+  token.cpp
+  tree.cpp
+  vp8l.cpp
+  webpenc.cpp
+  muxedit.cpp
+  muxinternal.cpp
+  muxread.cpp
+f:\software\windows\uap\yueba\webplib\mux\muxinternal.cpp(35): warning C4838: 从“int”转换到“uint32_t”需要收缩转换
+  bit_reader.cpp
+  bit_writer.cpp
+  color_cache.cpp
+  filters.cpp
+  huffman.cpp
+  huffman_encode.cpp
+  quant_levels.cpp
+  quant_levels_dec.cpp
+  random.cpp
+  rescaler.cpp
+  thread.cpp
+  utils.cpp
+  WebpComponent.cpp
+f:\software\windows\uap\yueba\webplib\webpcomponent.h(15): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+f:\software\windows\uap\yueba\webplib\webpcomponent.cpp(38): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+    正在创建库 F:\software\Windows\UAP\YueBa\x64\Debug\WebPLib\WebpLib.lib 和对象 F:\software\Windows\UAP\YueBa\x64\Debug\WebPLib\WebpLib.exp
+  WebPLib.vcxproj -> F:\software\Windows\UAP\YueBa\x64\Debug\WebPLib\WebpLib.dll
+  WebPLib.vcxproj -> F:\software\Windows\UAP\YueBa\x64\Debug\WebPLib\WebpLib.pdb (Partial PDB)
